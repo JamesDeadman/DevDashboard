@@ -1,0 +1,48 @@
+﻿<div class="top-row ps-3 navbar navbar-dark">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="">DevDashboard</a>
+    </div>
+</div>
+
+<input type="checkbox" title="Navigation menu" class="navbar-toggler" />
+
+<div class="nav-scrollable" onclick="document.querySelector('.navbar-toggler').click()">
+    <nav class="flex-column">
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="" Match="NavLinkMatch.All">
+                <span class="bi bi-house-door-fill-nav-menu" aria-hidden="true"></span> Home
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="utilities">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Utilities
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="stringBlockRepeater">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> String Block Repeater
+            </NavLink>
+        </div>
+
+        <div class="nav-item px-3">
+            <NavLink class="nav-link" href="plantUml">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Plant UML
+            </NavLink>
+        </div>
+
+		<div class="nav-item px-3">
+            <NavLink class="nav-link" href="gitLogs">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Git Logs
+            </NavLink>
+        </div>
+
+		<div class="nav-item px-3">
+            <NavLink class="nav-link" href="pullRequests">
+                <span class="bi bi-plus-square-fill-nav-menu" aria-hidden="true"></span> Pull Requests
+            </NavLink>
+        </div>
+    </nav>
+</div>
+
