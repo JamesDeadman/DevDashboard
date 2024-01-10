@@ -1,5 +1,6 @@
 using DevDashboard.Client.Pages;
 using DevDashboard.Components;
+using System.Diagnostics.Metrics;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -28,6 +29,6 @@ app.UseAntiforgery();
 
 app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
-    .AddAdditionalAssemblies(typeof(Counter).Assembly);
+    .AddAdditionalAssemblies(typeof(PlantUml).Assembly);
 
 app.Run();
